@@ -1,0 +1,204 @@
+.studentappbody{
+    background-color: #222A41;
+}
+.report1{
+    background-color: #151D32;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(21, 29, 50, 0.1);
+}
+.reportheading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.studenticon{
+    color: orange;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 40px;
+}
+.searchicon{
+    color: white;
+    height: 17px;
+    width: 17px;
+    position: relative;
+    left: 1012px;
+    cursor: pointer;
+}
+.reportheading input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid gray;
+    color: white;
+    height: 40px;
+    position: relative;
+    left: 1030px;
+}
+.reportheading input::placeholder{
+    color: white;
+}
+.reportheading h2{
+    position: relative;
+    left: 55px;
+    color: white;
+}
+.report hr{
+    height: 3px;
+    background-color: #F0042F;
+    border: none;
+}
+.reportinfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+.infoheader{
+    background-color: #222A41;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.infoheader h3{
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+.bodyrow{
+    background-color: #222A41;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.infobody{
+    margin-bottom: 200px;
+}
+.row11{
+    width: 170px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.row11 img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    position: relative;
+}
+.row1 .row11 h4{
+    position: relative;
+    font-size: 17px;
+    left: 7px;
+    cursor: pointer;
+    color: white;
+}
+.row1 .row11 h4:hover,
+.row6 h4:hover{
+    color: #1F5C73;
+}
+.row6 h4{
+    cursor: pointer;
+}
+.row2 h4{
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    position: relative;
+    right: 40px;
+}
+.row101 img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.row3{
+    width: 80px;
+    color: white;
+    position: relative;
+    right: 80px;
+}
+.row4{
+    width: 100px;
+    position: relative;
+    right: 55px;
+    color: white;
+    position: relative;
+}
+.row5{
+    position: relative;
+    right: 30px;
+    color: white;
+}
+.row6{
+    position: relative;
+    left: 30px;
+    color: white;
+}
+.row7{
+    position: relative;
+    left: 0px;
+    width: 140px;
+    color: white;
+}
+.row9{
+    width: 110px;
+    color: white;
+    position: relative;
+    left: 18px;
+}
+.row101{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    position: relative;
+    left: -50px;
+}
+.row101 h4{
+    width:100px ;
+    text-align: center;
+    color: white;
+}
+.row101 img{
+    position: relative;
+    top: 10px;
+}
+.row121 button{
+    height: 30px;
+    width: 90px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: #3459DE;
+    position: relative;
+    right: 40px;
+
+}
+.row121 button:hover{
+    transform: scale(1.1);
+}

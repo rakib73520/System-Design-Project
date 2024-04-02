@@ -1,0 +1,108 @@
+
+@keyframes studentdashboardimg {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+}
+.headerimgnot{
+    opacity: 0;
+    height: 300px;
+    width: 100.7%;
+    margin-top: 35px;
+}
+.headerimg{
+    animation: studentdashboardimg 2s ease-in-out;
+    margin-top: 35px;
+    background-image: url('../../assets/media/images/studentdashboard.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.headerimg1{
+    margin-bottom: -208px;
+    display: flex;
+    flex-direction: row;
+}
+.headerimg1first{
+    display: flex;
+    flex-direction: column;
+    height: 92px;
+    width: 270px;
+}
+.headerimg1 button{
+    margin: 10px;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.headerimg1b1:hover{
+    transform: scale(1.1);
+}
+.headerimg1b1{
+    background-color: #BB1010;
+    position: relative;
+    left: 55px;
+    top: 10px;
+}
+.b1not{
+    position: relative;
+    left: 55px;
+    top: 10px;
+    background-color: transparent;
+}
+.headerimg1b2{
+    background-color: #BB1010;
+    position: relative;
+    left: -55px;
+    top: 10px;
+}
+.headerimg1b2:hover{
+    transform: scale(1.1);
+}
+.b2not{
+    position: relative;
+    left: -55px;
+    top: 10px;
+    background-color: transparent;
+}
+.dropbutton{
+    position: relative;
+    left: 5px;
+}
+.dropbutton button{
+    height: 22px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: 200;
+    font-size: 12px;
+    border: none;
+    color: white;
+    background-color: #BB1010;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: none;
+}
+.dropbutton button:hover{
+    transform: scale(1.1);
+}
+.headerimg1b1:hover + .dropbutton button{
+    display: inline-block;
+}
+.dropbutton:hover button{
+    display: inline-block;
+}

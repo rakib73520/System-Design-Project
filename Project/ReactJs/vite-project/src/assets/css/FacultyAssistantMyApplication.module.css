@@ -1,0 +1,184 @@
+.myapphead{
+    background-color: #7B7C8D;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    align-items: center;
+    height: 150px;
+}
+.myapphead h2{
+    color: #A1CCD1;
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+    top: 3px;
+}
+.reportinfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: #EAF1F3;
+}
+.reportinfo h1{
+    margin-bottom: 50px;
+    margin-top: 20px;
+    position: relative;
+    left: 20px;
+    width: 50%;
+}
+.infoheader{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.infoheader h3{
+    font-weight: 600;
+    font-size: 14px;
+}
+.bodyrow{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 150px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.infobody{
+    margin-bottom: 200px;
+}
+.row11{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 10px;
+}
+.row11 img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    position: relative;
+    top: 7px;
+}
+.row1 .row11 h4{
+    position: relative;
+    font-size: 17px;
+    left: 7px;
+    cursor: pointer;
+}
+.row1 .row11 h4:hover{
+    color: #1F5C73;
+}
+.row2 h4{
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    right: -25px;
+}
+.row101 img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.row3{
+    width: 80px;
+    position: relative;
+    left: 25px;
+}
+.row4{
+    width: 100px;
+    position: relative;
+    left: 35px;
+    position: relative;
+}
+.row5{
+    position: relative;
+    left: 50px;
+}
+.row6{
+    position: relative;
+    left: 70px;
+}
+.row7{
+    position: relative;
+    left: 70px;
+    width: 80px;
+}
+.row8{
+    width: 80px;
+    position: relative;
+    left: 90px;
+}
+.row9{
+    width: 110px;
+    position: relative;
+    left: 60px;
+}
+.row101{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    position: relative;
+    left: 25px;
+}
+.row101 h4{
+    width:120px ;
+    text-align: center;
+    cursor: pointer;
+}
+.row101 h4:hover{
+    color: #1F5C73;
+}
+.row101 img{
+    position: relative;
+    top: 10px;
+}
+.row121 button{
+    height: 30px;
+    width: 90px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: #DC2525;
+    position: relative;
+    right: 15px;
+
+}
+.row121 button:hover{
+    transform: scale(1.1);
+}
+.row121 h4{
+    color: green;
+    position: relative;
+    height: 30px;
+    width: 90px;
+    top: 7px;
+    right: 17px;
+}
+.row111 h5{
+    color: #F0042F;
+    width: 140px;
+    font-size: 16px;
+    position: relative;
+    left: 25px;
+}
+.row112{
+    position: relative;
+    left: 45px;
+}

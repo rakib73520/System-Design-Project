@@ -1,0 +1,210 @@
+.image
+{
+    height:360px;
+    margin-bottom:40px;
+    display: flex;
+    flex-direction: column;
+    background: no-repeat center center/cover;
+    animation-name: img;
+    animation-duration: 1s;
+    animation-timing-function:ease-in;
+}
+
+ .headline
+{
+
+    margin-left:60px;
+    width: 500px;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-style: normal;
+    animation-name: rotate;
+    animation-duration: 1.5s;
+    transform-origin: top left;
+} 
+
+.title
+{
+    height: 50px;
+    width: 300px;
+}
+
+@keyframes type 
+{
+    from
+    {
+        width: 0;
+    }
+} 
+
+
+@keyframes img{
+    from
+    {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    25%
+    {
+      opacity: 0.25px;
+    }
+    50%
+    {
+      opacity:0.5px;
+    }
+    75%
+    {
+      opacity:0.75px;
+    }
+    100%
+    {
+      transform: translateX(o);
+      opacity: 1px;
+    }
+}
+
+@keyframes rotate
+{
+   from{
+      transform: rotate(0);
+      color: transparent;
+   }
+   70%{
+    color: transparent;
+    opacity: 0.25px;
+   }
+  
+   to {
+       transform: rotate(360deg);
+       color: white;
+   }
+}
+
+.btn
+{
+    margin-top: 100px;
+    margin-left: 600px;
+    display: flex;
+}
+.buttonStyle
+{
+   width: 100px; 
+   height: 32px;
+   border-radius: 12px;
+   margin-left: 20px;
+   background-color: transparent;
+   color: white;
+   transition: 0.3s ease-in-out;
+   cursor: pointer;
+}
+
+.buttonStyle:hover
+{
+   transform: scale(1.2);
+   background-color: #DF1B1B;
+   border:none;
+}
+
+.eventTag
+{
+    width: 1230px;
+    margin-top: 60px;
+    font-size: 24px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.h2
+{
+    
+    width: 400px;
+    margin-bottom: 0px;
+}
+.p2
+{
+    margin-top: 10px;
+    width: 600px;
+}
+
+.container
+{
+    width: 100%;
+    height: 830px;
+    background-color:White;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 60rem;
+}
+
+.note
+{
+    height: 353px;
+    width: 100%;
+    background-color:#08217A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.head
+{
+   font-size: 34px;
+   color: #6184FF;
+   margin-top: 0px;
+}
+
+.img{
+    margin-left: 70px;
+    height: 260px;
+    width:360px;
+    border-top-left-radius:50px;
+    border-bottom-right-radius: 50px;
+
+}
+.Event
+{
+    display: flex;
+}
+
+.eventDate
+{
+    margin-left:50px;
+}
+
+.date
+{
+    font-size: 28px;
+    margin-top: 0px;
+}
+.calendar
+{
+    color: black;
+}
+.dateTime
+{
+    display: flex;
+}
+.dateAndLocation
+{
+    display: flex;
+}
+
+.note:hover
+{
+    transform: scale(1.01);
+}
+
+
+
+/* .note
+{
+   transition: 
+   rotate 400ms, scale 200ms;
+}
+
+.note:hover
+{
+    rotate: y 3deg;
+} */

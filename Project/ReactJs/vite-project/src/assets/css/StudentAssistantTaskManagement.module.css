@@ -1,0 +1,490 @@
+.teacher{
+    display:flex;
+    flex-direction: row;
+
+}
+.position
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 73px;
+    font-size: 17px;
+    position: relative;
+    bottom: 30px;
+}
+.mytask
+{
+    background-color: #EAF1F3;
+    height: 437px;
+    overflow-x: scroll;
+    padding-left: 73px;
+}
+.mytaskfaculty
+{
+    background-color: #EAF1F3;
+    height: 437px;
+    overflow-x: scroll;
+    padding-left: 73px;
+    padding-bottom: 5px;
+}
+.condition
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 25px;
+}
+.div
+{
+    display: flex;
+    flex-direction: row;
+}
+.box1
+{
+    display: flex;
+    flex-direction:row;
+    color: white;
+    position: relative;
+    bottom: 30px;
+    margin-left: 15px;
+}
+.box1 span{
+    position: relative;
+    top: 5px;
+    font-size: 17px;
+}
+
+.firstConditation
+{
+ display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+.firstConditation:after
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #237696;
+    transform-origin:center;
+    transition:0.25s ease-out;
+}
+.firstConditation:hover:after
+{
+    transform: scaleX(1);
+    transform-origin:center;
+}
+
+.secondConditation
+{
+  display: inline-block;
+  position: relative;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.secondConditation:after
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #237696;
+    transform-origin:center;
+    transition:0.25s ease-out;
+}
+
+
+.secondConditation:hover:after{
+   transform: scaleX(1);
+   transform-origin:center;
+   
+  }
+
+  .thirdConditation
+{
+  display: inline-block;
+  position: relative;
+   margin-left: 50px;
+   cursor: pointer;
+}
+
+.thirdConditation:after
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #237696;
+    transform-origin:center;
+    transition:0.25s ease-out;
+}
+
+
+.thirdConditation:hover:after{
+   transform: scaleX(1);
+   transform-origin:center;
+   
+  }
+.row1{
+    height: 230px;
+    background-color: #237696;
+    color: white;
+    font: italic;
+    margin-bottom: 20px;
+    margin-top: -13px;
+}
+.row11{
+    font-size: 24px;
+    margin-left: 73px;
+    padding-top: 25px;
+}
+.row12{
+    font-size: 24px;
+    margin-left: 73px;
+    position: relative;
+    bottom: 10px;
+}
+.teacher1{
+    font-size: 20px;
+    margin-left: 73px;
+    position: relative;
+    bottom: 23px;
+}
+.teacher img{
+    height: 40px;
+    width: 40px;
+    margin-left: 7px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 13px;
+}
+.teacher2{
+    font-size: 20px;
+    margin-left: 5px;
+    position: relative;
+    bottom: 22px;
+}
+.mytask1{
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    bottom: 10px;
+}
+.div1{
+    width: 412;
+    height: 260px;
+    background-color: #237696;
+    border-radius: 10px;
+    margin-right: 50px;
+    cursor: pointer;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.div1:hover{
+    transform: scale(1.1);
+}
+.div11{
+    font-size: 15px;
+    color: white;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    position: relative;
+    top: 10px;
+}
+.div12{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+.div13{
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 375px;
+    height: 90px;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+}
+.box1 a{
+    font-size: 18px;
+    color: white;
+    position: relative;
+    bottom: 10px;
+}
+.box1 p{
+    color: white;
+    margin-left: 40px;
+    font-size: 15px;
+    position: relative;
+    bottom: 6px;
+}
+.SecondDiv{
+    background-color: #F5F2F2;
+    margin-top: 10px;
+    padding-left: 73px;
+    padding-bottom: 150px;
+}
+.row2{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.row21{
+    margin-top: 20px;
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+}
+.row23{
+    position: relative;
+    top: 15px;
+}
+.row22{
+    background-color: white;
+    height: 50px;
+    width: 210px;
+    margin-left: 440px;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 10px;
+}
+.row22:hover{
+    background-color: #E97D7D;
+    color: white;
+}
+.row22:hover .plusicon{
+    color: white;
+}
+.plusicon{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: green;
+}
+.row22addtask{
+    background-color: white;
+    height: 40px;
+    width: 150px;
+    margin-left: 440px;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 40px;
+    left: 450px;
+}
+.plusicon1{
+    height: 25px;
+    width: 25px;
+    color: green;
+}
+.row22addtask:hover{
+    background-color: #E97D7D;
+    color: white;
+}
+.row22addtask:hover .plusicon1{
+    color: white;
+}
+.row221task{
+    font-size: 20px;
+    position: relative;
+    right: 10px;
+}
+.row22addfeedback{
+    background-color: white;
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    margin-left: 250px;
+}
+.plusicon2{
+    height: 30px;
+    width: 30px;
+    color: green;
+}
+.row22addfeedback:hover{
+    background-color: #E97D7D;
+    color: white;
+}
+.row22addfeedback:hover .plusicon2{
+    color: white;
+}
+.row221feedback{
+    font-size: 20px;
+    position: relative;
+    right: 10px;
+}
+.row221{
+    margin-top: 13px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.row23{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 480px;
+}
+.row23faculty{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 1050px;
+    position: relative;
+    top: 15px;
+}
+.line{
+    background-color: black;
+    margin-top: 30px;
+    width: 95%;
+    position: relative;
+    right: 40px;
+}
+.row3{
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    top: 15px;
+}
+.row31{
+    padding-top: 15px;
+    width: 594px;
+    margin-right: 150px;
+}
+.feedback{
+    width: 700px;
+}
+.row311{
+    display: flex;
+}
+.row311 img{
+    width: 50px;
+    height: 50px;
+    margin-left: 7px;
+    border-radius: 50%;
+}
+.row3111{
+    margin-left: 7px;
+    margin-bottom: 5px;
+    width: 450px;
+    position: relative;
+    bottom: 30px;
+}
+.row3111 h4{
+    font-size: 22px;
+}
+.row3111 p{
+    font-size: 16px;
+    position: relative;
+    bottom: 20px;
+}
+.row312{
+    margin-left: 65px;
+    width: 550px;
+    position: relative;
+    bottom: 50px;
+}
+.r1{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.r2{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.r3{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.r4{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+}
+.r4:hover{
+    color: #237696;
+}
+.r5{
+    color: red;
+    font-size: 18px;
+}
+.r6{
+    color: red;
+    font-size: 25px;
+    text-align: center;
+}
+
+.firstlevel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.editdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 60px;
+    position: relative;
+    left: 60px;
+}
+.update{
+    cursor: pointer;
+    color: gray;
+    height: 20px;
+    width: 20px;
+    transition: 0.3s ease, transform 0.3s ease;
+}
+.update:hover{
+    color: white;
+    transform: scale(1.1);
+}
+.delete{
+    cursor: pointer;
+    color: gray;
+    height: 20px;
+    width: 20px;
+    transition: 0.3s ease, transform 0.3s ease;
+}
+.delete:hover{
+    color: red;
+    transform: scale(1.1);
+}

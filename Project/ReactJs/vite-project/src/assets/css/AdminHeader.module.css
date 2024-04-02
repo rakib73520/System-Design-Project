@@ -1,0 +1,58 @@
+.adminheader{
+    height: 130px;
+    background-color: #151D32;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.adminheader img{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.headerdiv{
+    margin-left: 20px;
+    background-color: transparent;
+    width: 30%;
+}
+.headerdiv h1{
+    color: white;
+    font-weight: 500;
+    position: relative;
+    top: 15px;
+}
+.headerdiv h3{
+    color: white;
+    font-weight: 200;
+}
+.headericon{
+    height: 25px;
+    width: 25px;
+    color: rgb(190, 189, 189);
+    margin-right: 5px;
+}
+.headertitle{
+    font-size: 20px;
+    color: rgb(190, 189, 189);
+    margin-left: 5px;
+    cursor: pointer;
+}
+.headertitle:hover{
+    color: #1F5C73;
+}
+.headerlogout{
+    font-size: 20px;
+    color: rgb(190, 189, 189);
+    margin-left: 40px;
+    cursor: pointer;
+}
+.headerlink{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    width: 50%;
+    position: relative;
+    left: 120px;
+}

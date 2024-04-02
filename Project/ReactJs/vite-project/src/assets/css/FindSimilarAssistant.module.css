@@ -1,0 +1,118 @@
+.report1{
+    background-color: #F8F9FA;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.showhead{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding-top: 20px;
+}
+
+.reportinfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+.infoheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    box-shadow: 0 4px 8px rgba(21, 29, 50, 0.1);
+}
+.infoheader h3{
+    font-weight: 600;
+    font-size: 14px;
+}
+.bodyrow{
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    height: 180px;
+    box-shadow: 0 4px 8px rgba(21, 29, 50, 0.1);
+}
+.infobody{
+    margin-bottom: 200px;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+}
+.row11{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.row1 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 8%;
+}
+.row1 .row11 h4{
+    position: relative;
+    font-size: 17px;
+    bottom: 23px;
+    cursor: pointer;
+    width: fit-content;
+}
+.row1 .row11 h4:hover{
+    color: #1F5C73;
+}
+.row1 .row11 h5{
+    font-size: 15px;
+    position: relative;
+    bottom: 60px;
+}
+.row1 .row11 p{
+    font-size: 14px;
+    position: relative;
+    bottom: 93px;
+}
+.row11extra{
+    position: relative;
+    top: -78px;
+}
+.row1 .row11 span{
+    font-size: 14px;
+    position: relative;
+    bottom: 100px; 
+}
+
+.btnback{
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 1px solid gray;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    background-color: transparent;
+}
+.btnback:hover{
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: #237696;
+    color: white;
+}
+.divbtn{
+    width: fit-content;
+    position: relative;
+    top: 65px;
+    left: 60px;
+}

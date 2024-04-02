@@ -1,0 +1,138 @@
+.headerheading{
+    height: 70px;
+    padding-left: 20px;
+}
+.body1{
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(190, 189, 189);
+    border-radius: 3px;
+    width: 900px;
+    height: 350px;
+    transition: transform 0.5s ease-in-out;
+}
+.row21{
+    padding-left: 20px;
+    padding-bottom: -15px;
+}
+.row21 p{
+    padding-left: 50px;
+    margin-bottom: -13px;
+    position: relative;
+    bottom: 20px;
+}
+.row21 h4{
+    position: relative;
+    bottom: 15px;
+}
+.applybtn{
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(173, 115, 5);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    right: 5px;
+}
+.applybtn:hover{
+    transform: scale(1.1);
+}
+.row221{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    bottom: 100px; 
+    right: 25px;
+    width: 200px;
+}
+.row222{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    top: 100px; 
+    right: 25px;
+    width: 200px;
+}
+.row221 p{
+    font-size: 13px;
+    position: relative;
+    left: 35px;
+}
+.row222 p{
+    font-size: 13px;
+    position: relative;
+    left: 35px;
+}
+.row23{
+   width: 320px; 
+   position: relative;
+   bottom: 10px;
+   right: 57px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   right: 80px;
+   top: 35px;
+   width: 420px;
+}
+.row23 h4{
+    position: relative;
+    top: 20px;
+}
+.row23 p{
+    text-align: center;
+}
+.recruitmentbody h3{
+    text-align: center;
+}
+.recruitmentbody1 h3{
+    text-align: center;
+}
+.recruitmentbody1{
+    position: relative;
+    bottom: 50px;
+}
+.lefticon{
+    height: 40px;
+    width: 40px;
+    color: #7E767F;
+    cursor: pointer;
+    position: relative;
+    left: 150px;
+    transition: color 0.3s ease-in-out;
+}
+.lefticon:hover{
+    color: #1F5C73;
+}
+.righticon{
+    height: 40px;
+    width: 40px;
+    color: #7E767F;
+    cursor: pointer;
+    position: relative;
+    right: 150px;
+    transition: color 0.3s ease-in-out;
+}
+.righticon:hover{
+    color: #1F5C73;
+}
+.dept{
+    width: 430px;
+}

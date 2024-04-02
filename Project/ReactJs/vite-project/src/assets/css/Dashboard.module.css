@@ -1,0 +1,342 @@
+.headerheading{
+    height: 70px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.headerjob{
+    margin-top: 60px;
+    display: flex;
+}
+.outermost{
+    margin-bottom: 150px;
+}
+.headerjobimg1{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    position: relative; 
+    left: 45px;
+}
+.headerjobimg2{
+    display: flex;
+    height: 350px;
+    width: 550px;
+    display: flex;
+    position: relative;
+    right: 45px;
+}
+.headerjobinfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 48%;
+}
+.jobinfofname{
+    max-width: fit-content;
+    margin-top: 5px;
+    font-size: large;
+}
+.jobinfofname:hover{
+    color: #1F5C73;
+    cursor: pointer;
+}
+.jobinfofstatus{
+    margin-top: -23px;
+}
+.jobinfopostdate{
+    margin-top: -22px;
+    font-size: 13px;
+}
+.jobinfojobtitle{
+    font-size: 15px;
+    margin-top: 25px;
+}
+.jobinfoposition{
+    margin-top: -17px;
+}
+.jobinfodescription{
+    font-size: 15px;
+    margin-top: -3px;
+}
+.jobinfodetails{
+    margin-top: -15px;
+}
+.readmore{
+    display: flex;
+    flex-direction: row;
+}
+.readmore span{
+    margin-top: -5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.readicon{
+    margin-top: -11px;
+    margin-left: 5px;
+    height: 30px;
+    width: 30px;
+    color: #BB1010;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.readicon:hover{
+    transform: scale(1.1);
+}
+.jobinfovisit{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.jobinfolink{
+    margin-top: -15px;
+    max-width: fit-content;
+    text-decoration: none;
+}
+.grayline {
+    margin-top: 35px;
+    border-top: 1px solid #647AA9; 
+    width: 87.6%;
+    margin-left: 119px;
+}
+
+.rakib{
+    position: relative;
+    top: -185px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+}
+.rakibnot{
+    position: relative;
+    top: -185px;
+}
+
+/* .jobpostbtn{
+    height: 30px;
+    width: 170px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    background-color: green;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    top: 50px;
+    left: 600px;
+    
+}
+.jobpostbtn:hover{
+    transform: scale(1.1);
+} */
+
+
+.mypostedbtn{
+    height: 30px;
+    width: 170px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 1px solid gray;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    background-color: transparent;
+    top: 50px;
+    left: 700px;
+}
+.mypostedbtn:hover{
+    background-color: green;
+    color: white;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+
+.editicon{
+    color: #151D32;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.deleteicon{
+    color: #F0042F;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+}
+.edit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50px;
+    position: relative;
+    right: 90px;
+    top: 5px;
+}
+.jobnotfound{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    padding-bottom: 250px;
+}
+
+
+/* recruitmentcss */
+
+.recruitmentbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recruitmentbody1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.headerheadingrec{
+    height: 70px;
+    padding-left: 20px;
+}
+.body1{
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(190, 189, 189);
+    border-radius: 3px;
+    width: 900px;
+    height: 350px;
+    transition: transform 0.5s ease-in-out;
+}
+.row21{
+    padding-left: 20px;
+    padding-bottom: -15px;
+}
+.row21 p{
+    padding-left: 50px;
+    margin-bottom: -13px;
+    position: relative;
+    bottom: 20px;
+}
+.row21 h4{
+    position: relative;
+    bottom: 15px;
+}
+.applybtn{
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(173, 115, 5);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    right: 5px;
+    top: 10px;
+}
+.applybtn:hover{
+    transform: scale(1.1);
+}
+.row221{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    bottom: 100px; 
+    right: 25px;
+    width: 200px;
+}
+.row222{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    top: 100px; 
+    right: 25px;
+    width: 200px;
+}
+.row221 p{
+    font-size: 13px;
+    position: relative;
+    left: 35px;
+}
+.row222 p{
+    font-size: 13px;
+    position: relative;
+    left: 35px;
+}
+.row23{
+   width: 350px; 
+   position: relative;
+   bottom: 10px;
+   right: 57px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   right: 80px;
+}
+.row23 h4{
+    position: relative;
+    top: 20px;
+    width: fit-content;
+}
+.row23 p{
+    text-align: center;
+    width: fit-content;
+}
+.recruitmentbody h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.recruitmentbody1 h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.recruitmentbody1{
+    position: relative;
+    bottom: 50px;
+}
+.lefticon{
+    height: 40px;
+    width: 40px;
+    color: #7E767F;
+    cursor: pointer;
+    position: relative;
+    left: 150px;
+    transition: color 0.3s ease-in-out;
+}
+.lefticon:hover{
+    color: #1F5C73;
+}
+.righticon{
+    height: 40px;
+    width: 40px;
+    color: #7E767F;
+    cursor: pointer;
+    position: relative;
+    right: 150px;
+    transition: color 0.3s ease-in-out;
+}
+.righticon:hover{
+    color: #1F5C73;
+}
+.dept{
+    width: 430px;
+}

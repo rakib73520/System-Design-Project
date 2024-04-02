@@ -1,0 +1,89 @@
+.headertop{
+    height: 70px;
+    background-color: #1E2041;
+    display: flex;
+    align-items: center;
+}
+.headertop img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+}
+.headertop p{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+.headertop p:hover{
+    cursor: pointer;
+    color: #1F5C73;
+}
+.headertop h4{
+    color: rgb(190, 189, 189);
+    cursor: pointer;
+    font-size: 17px;
+    position: relative;
+    left: 1000px;
+}
+.namerange{
+    width: 350px;
+}
+.headertop h4:hover{
+    color: white;
+}
+.bell{
+    color: rgb(124, 180, 124);
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 310px;
+}
+.headertop1{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: -10px;
+    position: relative;
+    left: 310px;
+}
+.headertop1 h1{
+    color: white;
+    font-size: 12px;
+    margin-top: 1px;
+    margin-left: 4px;
+}
+.bell:hover{
+    color: white;
+}
+.home{
+    height: 20px;
+    width: 20px;
+    color: rgb(190, 189, 189);
+    position: relative;
+    left: 770px;
+}
+.headertop h3{
+    margin-left: 7px;
+    color: rgb(190, 189, 189);
+    cursor: pointer;
+    position: relative;
+    left: 770px;
+}
+.headertop h3:hover{
+    color: white;
+}
+.search{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    color: rgb(190, 189, 189);
+    position: relative;
+    left: 590px;
+}
+.search:hover{
+    color: white;
+}

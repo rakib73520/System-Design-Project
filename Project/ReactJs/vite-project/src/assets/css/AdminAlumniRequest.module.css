@@ -1,0 +1,176 @@
+.studentappbody{
+    background-color: #222A41;
+}
+.report1{
+    background-color: #151D32;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(21, 29, 50, 0.1);
+    height: 650px;
+}
+.report2{
+    background-color: #151D32;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(21, 29, 50, 0.1);
+}
+.reportheading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.studenticon{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 40px;
+}
+.reportheading input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid gray;
+    color: white;
+    height: 40px;
+    position: relative;
+    left: 905px;
+}
+.reportheading input::placeholder{
+    color: white;
+}
+.reportheading h2{
+    position: relative;
+    left: 55px;
+    color: white;
+}
+.report hr{
+    height: 3px;
+    background-color: #F0042F;
+    border: none;
+}
+.reportinfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+.infoheader{
+    background-color: #222A41;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.infoheader h3{
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+.bodyrow{
+    background-color: #222A41;
+    margin-left: 50px;
+    margin-right: 35px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    height: 100px;
+}
+.bodyrow1{
+    background-color: #222A41;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    height: 100px;
+}
+.infobody{
+    overflow-y: scroll;
+    max-height: 400px;
+}
+.infobody1{
+    margin-bottom: 160px;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.row1 img{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+.row1 h4{
+    color: white;
+    position: relative;
+    left: 10px;
+    cursor: pointer;
+}
+.row1 h4:hover{
+    color: #1F5C73;
+}
+.row2 h4{
+    color: white;
+    width: 200px;
+    position: relative;
+    left: 100px;
+}
+.row3 h4{
+    color: white;
+    position: relative;
+    left: 65px;
+}
+.row4 h4{
+    color: white;
+    width: 200px;
+    position: relative;
+    text-align: center;
+    left: 65px;
+}
+.row5 h4{
+    color: white;
+    width: 200px;
+    position: relative;
+    text-align: center;
+    left: 25px;
+}
+.row121 button{
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    left: 30px;
+}
+.grantbtn{
+    background-color: green;
+}
+.rejectbtn{
+    background-color: #F0042F;
+    margin-left: 10px;
+}
+.row121 button:hover{
+    transform: scale(1.1);
+}

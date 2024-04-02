@@ -1,0 +1,16 @@
+.footer1{
+    margin-top: 0;
+    background-color: #151D32;
+    padding-left: 70px;
+    padding-top: 20px;
+    height: 80px;
+}
+.footer4{
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+.footer5{
+    color: red;
+}

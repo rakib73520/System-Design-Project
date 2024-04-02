@@ -1,0 +1,217 @@
+/* *{margin:0;
+    padding: 0;
+    border: border-box;
+    font-style:normal;
+}
+.UA:hover
+  {
+    transform: scale(1.1);
+    border: 2px solid;
+  }
+  .Gra:hover
+  {
+    transform: scale(1.1);
+  }
+
+ .inline
+  {
+    transform: rotate(0deg);
+    border: 2px solid #D9D9D9;
+    border-radius: 40px;
+  } */
+.row1{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: #618264;
+    padding-left: 70px;
+    color: white;
+}
+.row1 p{
+    font-size: 22px;
+    width: 80%;
+}
+.typeinput{
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid gray;
+    padding-left: 10px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    left: 650px;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.row2 p{
+    font-size: 20px;
+}
+.inline{
+    margin-top: 35px;
+    transform: rotate(0deg);
+    border: 1px solid #D9D9D9;
+    border-radius: 40px;
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.uabtn{
+    height: 25px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    background-color: black;
+}
+.uabtn:hover{
+    background-color: black;
+    color: white;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+.uabtnnot{
+    height: 25px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    background-color: transparent;
+}
+.graderbtn{
+    height: 25px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 5px;
+}
+.graderbtn:hover{
+    background-color: black;
+    color: white;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+.graderbtnnot{
+    height: 25px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-weight: bold;
+    color: black;
+    background-color: transparent;
+    position: relative;
+    left: 5px;
+}
+.row4{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    position: relative;
+    left: 95px;
+    width: 93%;
+}
+.row41{
+    display: flex;
+    flex-direction: row;
+    width: 32%;
+    margin-bottom: 50px;
+}
+.row411{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.row41 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 8%;
+}
+.row41 .row411 h4{
+    position: relative;
+    font-size: 17px;
+    bottom: 23px;
+    cursor: pointer;
+    width: fit-content;
+}
+.row41 .row411 h4:hover{
+    color: #1F5C73;
+}
+.row41 .row411 h5{
+    font-size: 15px;
+    position: relative;
+    bottom: 60px;
+}
+.row41 .row411 p{
+    font-size: 14px;
+    position: relative;
+    bottom: 93px;
+}
+.row41 .row411 span{
+    font-size: 14px;
+    position: relative;
+    bottom: 100px;
+}
+
+.outtoph1{
+    position: relative;
+    animation: researchh1 2s ease-out;
+}
+.outtopp{
+    animation: researchh3 2s ease-out;
+}
+.outtoph1not{
+    position: relative;
+}
+.outtoppnot{
+    position: relative;
+}
+@keyframes researchh1 {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+}
+@keyframes researchh3 {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+}

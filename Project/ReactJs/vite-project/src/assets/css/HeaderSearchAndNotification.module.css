@@ -1,0 +1,141 @@
+.headertopsearch{
+    height: 300px;
+    width: 270px;
+    position: absolute;
+    top: 80px;
+    right: 250px;
+    z-index: 999;
+}
+.searchnotclicked{
+    height: 300px;
+    width: 270px;
+    position: absolute;
+    top: 80px;
+    right: 250px;
+    visibility: hidden;
+}
+.topsearch{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.topsearch input{
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    border-top-left-radius: 6px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.searchaction{
+    height: 33px;
+    width: 35px;
+    background-color: #1E2041;
+    border-top-right-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+.searchicon{
+    height: 500px;
+    width: 500px;
+}
+.topsearchsuggestion{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding-left: 5px;
+    padding-top: 2px;
+    margin-top: -2px;
+    height: 200px;
+    width: 234px;
+    margin-left: 5px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.headertopnotification{
+    height: 380px;
+    width: 370px;
+    position: absolute;
+    top: 85px;
+    right: 530px;
+    z-index: 999;
+}
+.notificationheader{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #1E2041;
+}
+.notificationheader h3{
+    position: relative;
+    left: 120px;
+    color: rgb(190, 189, 189);
+}
+.notificationheader h4{
+    position: relative;
+    left: 170px;
+    color: rgb(190, 189, 189);
+    cursor: pointer;
+}
+.notificationheader h4:hover{
+    color: white;
+}
+.notificationbody img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.notificationout{
+    width: 370px;
+    max-height: 380px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+.notificationbody{
+    display: flex;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.notificationbody img{
+    position: relative;
+    left: 5px;
+}
+.notificationbody h4{
+    position: relative;
+    left: 10px;
+    padding-left: 2px;
+    margin-left: 2px;
+    top: 0px;
+}
+.notificationdelete{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    padding-left: 5px;
+    margin-left: 5px;
+    right: 8px;
+    color: red;
+    cursor: pointer;
+}
+.bellnotclicked{
+    height: 380px;
+    width: 370px;
+    position: absolute;
+    top: 85px;
+    right: 480px;
+    visibility: hidden;
+}
+.suggestions h5{
+    max-width: fit-content;
+    cursor: pointer;
+}

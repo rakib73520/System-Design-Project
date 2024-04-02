@@ -1,0 +1,83 @@
+.updateprofile{
+    background-color: #F8F9FA;
+}
+.updateprofilecontainer {
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+.updateprofilecontainer h1 {
+    text-align: center;
+  }
+  
+  .profileimagesection {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profileimagesection img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+  }
+  
+  .profileimagesection input {
+    margin-top: 10px;
+  }
+  
+.updateprofilecontainer label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 20px;
+  }
+  
+  .updateprofilecontainer input,
+  .updateprofilecontainer textarea,
+  .updateprofilecontainer select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .updateprofilecontainer select {
+    appearance: none;
+    background: url('../../assets/media/images/arrow-down.jpg') no-repeat right #fff; 
+    background-size: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    width: 93%;
+  }
+  
+  .buttoncontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .buttoncontainer button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 170px;
+  }
+  
+  .buttoncontainer button:hover { 
+    background-color: #0056b3;
+  }
