@@ -1,0 +1,359 @@
+.reviewouter{
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body{
+    background-color: #FFFBFB;
+    border-radius: 15px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    padding-bottom: 200px;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    width: 100%;
+}
+.backbtn{
+    height: 30px;
+    width: 110px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 1px solid rgb(190, 189, 189);
+    font-weight: 750;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: transparent;
+    position: relative;
+}
+.backbtn:hover{
+    background-color: #E97D7D; 
+    color: white;
+}
+.row11{
+    height: 110px;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row12{
+    height: 110px;
+    width: 80%;
+    position: relative;
+    left: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.row2{
+    display: flex;
+    flex-direction: column;
+    margin-top:100px;
+    position: relative;
+}
+.row21{
+    width: 700px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -7px;
+}
+.submitbtn{
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    background-color: #496DEB;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    bottom: 50px;
+    left: 300px;
+    
+}
+.submitbtn:hover{
+    transform: scale(1.1);
+}
+
+
+
+.branchicon{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    right: 10px;
+    top: 5px;
+}
+
+.editicon{
+    color: #151D32; 
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.deleteicon{
+    color: #F0042F;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+}
+.row2111 img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 15px;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.row21{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.row2111{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    bottom: 17px;
+}
+.row212{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.row21{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.listicon{
+    height: 30px;
+    width: 30px;
+    color:cadetblue;
+    position: relative;
+    bottom: 5px;
+    right: 15px;
+}
+.row211 h4{
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+}
+.row211 p{
+    font-size: 14px;
+    position: relative; 
+    bottom: 15px;
+}
+.row211{
+    height: 100px;
+    width: 90%;
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: 28px;
+}
+.row3 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    left: 5px;
+}
+.assign{
+    position: relative;
+    left: 10px;
+}
+
+
+
+.row312{
+    margin-left: 65px;
+    width: 550px;
+    position: relative;
+    bottom: 50px;
+    right: 37px;
+    bottom: 5px;
+}
+.r1{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.r2{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.r3{
+    margin-bottom: 15px;
+}
+.r4{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+}
+.r4:hover{
+    color: #237696;
+}
+.grayline{
+    border: 0;
+    background-color: #D9D9D9;
+    height: 1px;
+    width: 700px;
+    position: relative; 
+    top: 20px;
+}
+.outer11 h3{
+    position: relative;
+    top: 10px;
+}
+.outer11{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+
+.row212assign{
+    position: relative;
+    top: 10px;
+    left: 260px;
+}
+
+.r5{
+    color: red;
+    font-size: 14px;
+}
+.row31{
+    padding-top: 15px;
+    width: 594px;
+}
+.row311{
+    display: flex;
+}
+.row311 img{
+    width: 40px;
+    height: 40px;
+    margin-left: 7px;
+    border-radius: 50%;
+}
+.row3111{
+    margin-left: 7px;
+    margin-bottom: 5px;
+    width: 450px;
+    position: relative;
+    bottom: 25px;
+}
+.row3111 h4{
+    font-size: 18px;
+    cursor: pointer;
+}
+.row3111 h4:hover{
+    color: #237696;
+}
+.row3111 p{
+    font-size: 14px;
+    position: relative;
+    bottom: 20px;
+}
+.row312assign{
+
+    margin-left: 65px;
+    width: 550px;
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+}
+.outer2 .row31{
+    position: relative;
+    right: 50px;
+    top: 15px;
+}
+.feedback{
+    display: flex;
+    flex-direction: column;
+}
+.feedback1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.feedback1 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.feedback11{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    position: relative;
+    left: 10px;
+}
+.feedback11 h4{
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+}
+.feedback11 h4:hover{
+    color: #237696;
+}
+.feedback11 p{
+    font-size: 13px;
+    position: relative;
+    bottom: 20px;
+}
+.feedback2{
+    display: flex;
+    width: 600px;
+    position: relative;
+    left: 40px;
+    bottom: 30px;
+}
+.feedback2 p{
+    font-size: 15px;
+}
+
+.feedbackbtn{
+    height: 30px;
+    width: 160px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    background-color: #496DEB;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+
+    
+}
+.feedbackbtn:hover{
+    transform: scale(1.1);
+}

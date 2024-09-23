@@ -1,0 +1,247 @@
+.reportinfo{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+    background-color: #EAF1F3;
+}
+.infoheader{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.infoheader h3{
+    font-weight: 600;
+    font-size: 17px;
+}
+.bodyrow{
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 35px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    height: 200px;
+}
+.bodyrow1{
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    height: 200px;
+}
+.infobody{
+    overflow-y: scroll;
+    max-height: 400px;
+}
+.infobody1{
+    margin-bottom: 160px;
+}
+.row1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.row1first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.row1first img{
+    height: 55px;
+    width: 55px;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.row1first1 h4{
+    display: inline block;
+    position: relative;
+    left: 20px;
+    top: 35px;
+    cursor: pointer;
+}
+.row1first p{
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    width: 300px;
+}
+.row1third{
+    position: relative;
+    right: 60px;
+    bottom: 17px;
+    font-size: 15px;
+}
+.row1second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    bottom: 30px;
+    right: 70px;
+}
+.row1second img{
+    height: 55px;
+    width: 55px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 13px;
+}
+.row1second1 h4{
+    position: relative;
+    bottom: 5px;
+    left: 7px;
+    cursor: pointer;
+}
+.row1second1 p{
+    position: relative; 
+    font-size: 15px;
+    bottom: 25px;
+    left: 7px;
+}
+.row2{
+    width: 200px;
+}
+.row3 h5,
+.row3 p{
+    font-size: 14px;
+}
+.row3first,
+.row3second,
+.row3third{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.row3 p{
+    position: relative;
+    left: 13px;
+}
+.row3first p{
+    cursor: pointer;
+}
+.row3first p:hover,
+.row1first1 h4:hover,
+.row1second1 h4:hover{
+    color: #1F5C73;
+}
+.rowtitle{
+    width: 300px;
+}
+.row3third p{
+    color: green;
+}
+.rowtitle p{
+    position: relative;
+    right: 10px;
+}
+.rowfaculty{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 60px;
+}
+.rowfaculty img{
+    height: 80px;
+    width: 80px;
+    border-radius: 5px;
+}
+.rowfaculty1 h4{
+    position: relative;
+    top: 10px;
+    left: 7px;
+}
+.rowfaculty1 h5{
+    font-size: 15px;
+    position: relative;
+    left: 7px;
+    bottom: 5px;
+}
+.rowfaculty1 p{
+    font-size: 15px;
+    position: relative;
+    left: 7px;
+    bottom: 20px;
+}
+.rowamount p{
+    color: green;
+    position: relative;
+    right: 50px;
+}
+.toptitle{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    position: relative;
+    left: 30px;
+    width: 50%;
+}
+
+.outtop{
+    background-color: #A1CCD1;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 30px;
+    margin-bottom: 40px;
+}
+.outtoph1{
+    position: relative;
+    animation: researchh1 2s ease-out;
+}
+.outtoph3{
+    width: 70%;
+    animation: researchh3 2s ease-out;
+}
+.outtoph1not{
+    position: relative;
+}
+.outtoph3not{
+    width: 70%;
+}
+@keyframes researchh1 {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+}
+@keyframes researchh3 {
+    from {
+        opacity: 0;
+        transform: translateX(70px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+}
+.fundnot1{
+    width: 70%;
+}
+.fundnot{
+    position: relative;
+}

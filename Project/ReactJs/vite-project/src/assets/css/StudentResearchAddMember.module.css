@@ -1,0 +1,110 @@
+.reportinfo{
+    display: flex;
+    flex-direction: column;
+    background-color: #EAF1F3;
+}
+.reportinfo h1{
+    width: 50%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    position: relative;
+    left: 30px;
+}
+.infoheader{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    padding-right: 65px;
+}
+.infoheader h3{
+    font-weight: 600;
+    font-size: 20px;
+}
+.bodyrow{
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    background-color: white;
+    height: 150px;
+}
+.infobody{
+    margin-bottom: 200px;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 210px;
+}
+.row11{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.row1 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 8%;
+}
+.row1 .row11 h4{
+    position: relative;
+    font-size: 17px;
+    bottom: 23px;
+    cursor: pointer;
+    width: fit-content;
+}
+.row1 .row11 h4:hover{
+    color: #1F5C73;
+}
+.row1 .row11 h5{
+    font-size: 15px;
+    position: relative;
+}
+.row11h51{
+    position: relative;
+    bottom: 65px;
+}
+.row11h52{
+    position: relative;
+    bottom: 105px;
+}
+.row1 .row11 h4{
+    position: relative;
+    bottom: 25px;
+}
+.row1 .row11 p{
+    font-size: 14px;
+    position: relative;
+    bottom: 135px;
+}
+.row121 button{
+    height: 30px;
+    width:130px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: #2D8F2B;
+    position: relative;
+    color: white;
+    right: 310px;
+}
+.row121 button:hover{
+    transform: scale(1.1);
+}

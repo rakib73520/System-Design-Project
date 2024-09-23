@@ -1,0 +1,60 @@
+.searchbar{
+    margin-top: 50px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbar input{
+    height: 30px;
+    width: 200px;
+    border: 1px solid orange;
+}
+.searchbar button{
+    height: 34px;
+    width: 50px;
+    background-color: orange;
+    border: none;
+    color: rgb(189, 129, 129);
+    cursor: pointer;
+}
+.searchbar1{
+    margin: auto;
+    width: 260px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    height: 200px;
+    padding: 2px;
+}
+.searchbar1not{
+    margin: auto;
+    width: 260px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    height: 200px;
+    padding: 2px;
+    visibility: hidden;
+}
+.searchbar1 h5{
+    cursor: pointer;
+    max-width: fit-content;
+}
+.searchbar1 div{
+    padding: 4px;
+}
+.facultyprofile{
+    margin: auto;
+    display: flex;
+    padding: 30px;
+    padding-left: 100px;
+}
+.facultyprofile img{
+    height: 100px;
+    width: 100px;
+}
+.facultyprofile div{
+    padding-left: 30px;
+}
+.facultyprofile div h4{
+    margin-top: 0;
+}

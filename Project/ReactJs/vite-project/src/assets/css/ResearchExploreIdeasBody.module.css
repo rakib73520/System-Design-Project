@@ -1,0 +1,154 @@
+.headerheading{
+    height: 70px;
+    padding-left: 20px;
+}
+.researchbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.body1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F3E6E6;
+    border-radius: 15px;
+    width: 85%;
+    margin-bottom: 100px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+.row31 img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+}
+.row11 img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.row11{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.reqbtn{
+    height: 30px;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: #1F5C73;
+}
+.reqbtn:hover{
+    transform: scale(1.1);
+}
+.row1{
+    position: relative;
+    left: 40px;
+}
+.row111 h3{
+    width: 320px;
+    position: relative;
+    left: 7px;
+    top: 3px;
+    cursor: pointer;
+}
+.row111 h3:hover{
+    color: #1F5C73;
+}
+.row111 p{
+    position: relative;
+    left: 7px;
+    bottom: 10px;
+    font-weight: 500;
+}
+.row12{
+    position: relative;
+    left: 58px;
+    margin-bottom: 25px;
+}
+.row121{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+}
+.row121 p{
+    position: relative;
+    left: 10px;
+}
+.row13 h4{
+    position: relative;
+    left: 60px;
+    top: 10px;
+}
+.row13 p{
+    position: relative;
+    left: 60px;
+}
+.row21{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    bottom: 75px;
+}
+.row21 h5{
+    font-size: 15px;
+}
+.clockicon{
+    position: relative;
+    left: 5px;
+    color: gray;
+}
+.row22{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 45px;
+    right: 40px;
+}
+.row22 p{
+    font-size: 17px;
+    font-weight: 500;
+}
+.row22 h2{
+    position: relative;
+    top: 20px;
+    left: 3px;
+}
+.row3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    right: 40px;
+    bottom: 100px;
+}
+.row311{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+}
+.row311 h4{
+    position: relative;
+    left: 5px;
+    width: 140px;
+    cursor: pointer;
+}
+.row311 h4:hover{
+    color: #1F5C73;
+}
