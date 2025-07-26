@@ -166,7 +166,7 @@ Multiple user types can post job opportunities:
 
 ### 🎓 Alumni
 - Participate in alumni events
-- Access exclusive job postings
+- Post job opportunities for students
 - Network with current students and faculty
 - Receive and respond to communications (with safety measures)
 
@@ -195,9 +195,6 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 - Documentation updates
 - Performance optimizations
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Developer
 
